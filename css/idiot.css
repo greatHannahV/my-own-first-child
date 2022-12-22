@@ -1,0 +1,202 @@
+body{
+    font:30px Arial sans-serif;
+    background-color: aliceblue;
+
+}
+.wpapper{
+    min-height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 5px;
+  
+}
+@media (max-width:1100px){
+    .container{
+        max-width:970px ;
+    }
+
+}
+@media(max-width:992px){
+    .container{
+        max-width:750px ;
+    }
+    
+}
+@media(max-width:767px){
+    .container{
+        max-width:none ;
+
+    }
+
+}
+
+
+.up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 203, 203);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    z-index: 1;
+}
+.up p{
+    margin: 5px auto;
+}
+p{
+    padding: 5px 10px;
+}
+.text1{
+    text-align: left;
+    line-height: 30px;
+    justify-content: center;
+    margin: 50px 10px;
+    
+}
+.text2{
+    text-align: left;
+    line-height: 30px;
+    justify-content: center;
+    margin: 30px 10px;
+    
+}
+.CText{
+    font:10px Arial;
+    text-align: center;
+    line-height: 15px; 
+    margin: 50px 0;
+}
+
+
+.column {
+    background-color: rgb(199, 232, 232);
+    padding: 30px 0 20px 0;
+    max-width: 100%;
+    
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3px;
+
+    
+    
+}
+.column_column {
+flex: 0 1 50%;
+margin: 0 0 30px 0;
+
+
+}
+.columnItem {
+   
+  
+}
+.itemRow {
+    display: flex;   
+    padding: 10px 20px;
+
+
+   
+}
+.itemImg {
+    flex: 0 0 200px;
+    padding: 10px 0;
+    margin: 0 0 20px 0;
+    
+    
+}
+.itemBody {
+    flex: 1 1 auto;
+    margin: 0 20px ;
+    
+   
+}
+.itemTitle {
+    font-size: 30px;
+    text-align: center;
+    padding: 0 20px;
+}
+.itemText {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 20px 0;
+}
+
+.flex2 {
+    background-color: rgb(199, 232, 232);
+    padding: 50px 0;
+}
+.title3 {
+   font-size: 39px;
+    text-align: center;
+    margin-top: 0 0px 20px 0px;
+}
+.Vbody {
+   max-width: 990px;
+   margin: 0 auto;
+
+}
+.row3 {
+    display: flex;
+    margin: 20px -22.5px;
+    
+}
+.column3column {
+    flex: 0 1 33.333%;;
+    padding: 0 22.5px;
+    margin: 20px 0;
+    display: flex;
+ 
+}
+.item3 {
+    background-color: rgb(16, 49, 79);
+    color: rgb(240, 239, 239);
+    border-radius: 5px;
+    border: 2px solid rgb(16, 49, 79);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itemLogo {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 12px 0;
+
+}
+.itemMidle {
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    
+}
+.itemContent {
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    flex: 1 1 auto;
+    
+}
+.itemButtom {
+ text-decoration: none;
+  background-color: aliceblue;
+  display: block;
+  margin: 10px 20px;
+  line-height: 40px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  border-radius: 7px;
+  font-size: 18px;
+
+}
+
+

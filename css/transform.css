@@ -1,0 +1,38 @@
+#bodyFlip{
+ position:relative;
+ width: 400px;   
+ height: 250px;
+ transform-style: preserve-3d;
+ transition: all 0.8s ease 0s;
+}
+#leftFlip{
+    backface-visibility: hidden;
+    z-index: 2;
+    transform: rotateY(0deg);
+    
+}
+#rightFlip{
+    transform: rotateY(-180deg);
+}
+#leftFlip,
+#rightFlip{
+    position: absolute;
+    width: 400px;   
+    height: 250px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flip:hover #bodyFlip{
+    transform: rotateY(-180deg);
+}
+body{
+    margin:200px auto ;
+    max-width: 500px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(71, 114, 86);
+}
+

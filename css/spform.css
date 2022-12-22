@@ -1,0 +1,70 @@
+body{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+ 
+#wrapper {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #edeee7;
+    width: 780px;
+    height: 750px;  
+}
+#info{
+    margin: 0 auto;
+}
+.reg::first-letter{
+    font-size: 35px;
+    color: rgb(30, 38, 35);
+}
+.reg{
+    font-size: 30px;
+    font-weight: 0;
+}
+#img{
+   width:500px;
+   height:300px;
+   margin: 10px 140px;
+ 
+}
+.input{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 40px;
+    border-color: rgb(65, 99, 67);
+    font: 20px verdana;
+
+    
+}
+.input:hover{
+    background-color: rgba(203, 212, 210, 0.856);
+    border-style: none ;
+
+}
+.input:focus{
+    box-shadow: 0 0 30px rgba(25, 116, 93, 0.537);
+    border-style: none;
+}
+.button{
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+    background-color: #b5ba95df;
+    transition-duration: 3s, 200ms, 1s;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    transition-property: background-color, top, box-shadow;
+    transition-delay: 2s, 0, 0;
+}
+.button:visited{
+    background-color: rgb(21, 123, 123);
+}
+.button:hover{
+    background-color: rgb(162, 192, 172);
+    top: 2px;
+    box-shadow: 0 3px 0 #474d1edf;
+    transition: all 5s ease 0;
+}
